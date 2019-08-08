@@ -1,2 +1,2 @@
 # e-commerce-website-POC
-A POC developed at an hack-a-thon for a e-commerce website for small businesses.
+A POC for an e-commerce website(small businesses) developed at a hack-a-thon 
