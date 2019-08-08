@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+</head>
+<style>
+
+#title{
+	width:1920px;
+	height:100px;
+	position:fixed;
+	z-index:-1;
+	background-image:url("titlebar.jpg");
+	}
+	
+
+#logo{
+	width:150px;
+	height:150px;
+	
+	background-image:url("logo.jpg");}
+	
+.test{
+	width:150px;
+	height:150px;
+	
+	background-image:url("logo.jpg");
+	
+
+</style>
+
+<body>
+<div id= "title"></div>
+
+<div id="logo"></div>
+<pre>h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+
+h
+h
+h
+h
+h
+hh
+h
+
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+hh
+
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+
+h
+
+
+
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+h
+
+h
+
+
+
+</pre>
+<script>
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+		
+        myMove();
+    } else {
+        document.getElementById("logo").className = "";
+    }
+}
+
+function myMove() {
+  var elem = document.getElementById("logo");   
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+       
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+</script>
+
+</body>
+
+</html>
